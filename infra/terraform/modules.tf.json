@@ -7,12 +7,12 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "hello-kitty-bucket-55"
+        "IMAGES_BUCKET": "hello-kitty-bucket-infinity"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
       "filename": null,
-      "function_name": "hello-kitty-function-demo-55",
+      "function_name": "hello-kitty-function-infinity",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
@@ -39,7 +39,7 @@
     },
     "appcd_551e1d2b-88ec-5406-87cf-c51521bbe894": {
       "block_public_access": true,
-      "bucket_name": "hello-kitty-bucket-55",
+      "bucket_name": "hello-kitty-bucket-infinity",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
@@ -53,7 +53,7 @@
       "website_index_document": "index.html"
     },
     "appcd_86ec452a-770a-59bf-87dd-67ed883e25e5": {
-      "name": "/aws/lambda/hello-kitty-function-demo-55",
+      "name": "/aws/lambda/hello-kitty-function-infinity",
       "retention_in_days": 7,
       "source": "./modules/aws_cloudwatch_log_group",
       "tags": {
@@ -66,7 +66,7 @@
       "description": null,
       "force_detach_policies": true,
       "inline_policy": [],
-      "name": "hello-kitty-role-demo-55",
+      "name": "hello-kitty-role-infinity",
       "source": "./modules/aws_iam_role",
       "tags": {
         "appstack": "hello-kitty-demo",
