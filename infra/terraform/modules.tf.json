@@ -7,7 +7,7 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "hello-kitty-bucket"
+        "IMAGES_BUCKET": "hello-kitty-bucket-55"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
